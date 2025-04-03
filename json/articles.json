@@ -2,10 +2,10 @@
     {
       "id":1,
         "images": [
-          "../img/teaching_img/GoogleFrom_1.png",
-          "../img/teaching_img/GoogleFrom_2.png",
-          "../img/teaching_img/GoogleFrom_3.png",
-          "../img/teaching_img/last.png"
+          "@/img/teaching_img/GoogleFrom_1.png",
+          "@/img/teaching_img/GoogleFrom_2.png",
+          "@/img/teaching_img/GoogleFrom_3.png",
+          "@/img/teaching_img/last.png"
         ],
         "website":[
           {"name":"作品網頁","url":"https://alara20221231.github.io/web-GoogleForm/ "},
@@ -18,10 +18,10 @@
     {
       "id":2,
         "images": [
-          "../img/teaching_img/ESP32_1.png",
-          "../img/teaching_img/ESP32_2.png",
-          "../img/teaching_img/ESP32_3.png",
-          "../img/teaching_img/last.png"
+          "@/img/teaching_img/ESP32_1.png",
+          "@/img/teaching_img/ESP32_2.png",
+          "@/img/teaching_img/ESP32_3.png",
+          "@/img/teaching_img/last.png"
         ],
         "website":[
           {"name":"即時監測網站","url":"https://iotsvm.shop/mqtt/iot.html"}
