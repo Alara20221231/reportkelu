@@ -1,0 +1,51 @@
+.section{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-color: #353535;
+}
+
+.FeeQuote{
+    height: 200vh;
+}
+.Teaching{
+    height: 280vh;
+}
+
+
+@media (min-width: 576px) { 
+    .FeeQuote{
+        height: 300vh;
+    }
+    .Teaching{
+        height: 50vh;
+    }
+ }
+
+@media (min-width: 768px) { 
+    .FeeQuote{
+        height: 50vh;
+    }
+    .Teaching{
+        height: 60vh;
+    }
+ }
+ 
+@media (min-width: 992px) { 
+    .FeeQuote{
+        height: 100vh;
+    }
+    .Teaching{
+        height: 100vh;
+    }
+ }
+
+@media (min-width: 1200px) { 
+    .FeeQuote{
+        height: 100vh;
+    }
+    .Teaching{
+        height: 100vh;
+    }
+ }

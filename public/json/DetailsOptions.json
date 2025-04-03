@@ -1,0 +1,223 @@
+{
+    "projectTypes": [
+        { "name": "網頁開發", "price": 1000 },
+        { "name": "程式設計", "price": 500 },
+        { "name": "Word", "price": 800 },
+        { "name": "PPT", "price": 1300 },
+        { "name": "EXCEL", "price": 800 },
+        { "name": "海報製作", "price": 1000 },
+        { "name": "名片", "price": 500 },
+        { "name": "Banner", "price": 800 }
+    ],
+    "detailsOptions": {
+        "網頁開發": [
+            {
+                "options":[
+                    { "detailtype":"radio","radioname":"test","name": "純前端（HTML | CSS | JavaScript | Bootstrap）", "price": 0, "state": "yes" },
+                    { "detailtype":"radio","radioname":"test","name": "純後端（PHP | MySQL）", "price": 0, "state": "yes" },
+                    { "detailtype":"radio","radioname":"test","name": "前後端整合", "price": 1000, "state": "yes" },
+                    { "detailtype":"checkbox","name": "使用前端框架（VUE）", "price": 1000, "state": "yes" },
+                    { "detailtype":"checkbox","name": "遠端協助建置運行環境", "price": 300, "state": "yes" },
+                    { "detailtype":"checkbox","name": "遠端協助建置資料庫", "price": 500, "state": "yes" }
+                ]
+            }
+        ],
+        "程式設計": [
+            {
+                "options":[
+                    { "detailtype":"radio","radioname":"test","name": "Python", "price": 0, "state": "yes" },
+                    { "detailtype":"radio","radioname":"test","name": "Arduino", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "遠端協助建置運行環境", "price": 300, "state": "yes" },
+                    { "detailtype":"checkbox","name": "遠端協助建置資料庫", "price": 500, "state": "yes" }
+                ]
+            }
+        ],
+        "Word": [
+            {
+                "options":[
+                    { "detailtype":"checkbox","name": "格式編排", "price": 500, "state": "yes" },
+                    { "detailtype":"checkbox","name": "內容撰寫", "price": 1000, "state": "yes" },
+                    { "detailtype":"checkbox","name": "合併列印", "price": 500, "state": "yes" }
+                ]
+            }
+        ],
+        "PPT": [
+            {
+                "title":"稿件，如需增加調整次數，依每次$200計價。",
+                "options":[
+                    { "detailtype":"radio","radioname":"test","name": "一種版(可微調一次)", "price": 0, "state": "yes" },
+                    { "detailtype":"radio","radioname":"test","name": "三種版本擇一(可微調兩次)", "price": 700, "state": "yes" },
+                    { "detailtype":"checkbox","name": "額外加購一版本(無微調)", "price": 300, "state": "yes" },
+                    { "detailtype":"checkbox","name": "額外加購兩版本(無微調)", "price": 600, "state": "yes" }
+                ]
+            },
+            {
+                "title":"風格挑選，成品中所提供的素材嚴禁用於商業用途。",
+                "options":[
+                    { "detailtype":"checkbox","name": "簡約風格", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "復古風格", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "科技風格", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "可愛風格", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "電競風格", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "國風風格", "price": 0, "state": "yes" }
+                ]
+            },
+            {
+                "title":"檔案類型。",
+                "options":[
+                    { "detailtype":"checkbox","name": "PDF", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "PNG", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "JPG", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "PS檔", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "AI檔", "price": 0, "state": "yes" }
+                ]
+            }
+        ],
+        "EXCEL": [
+            {
+                "options":[
+                    { "detailtype":"checkbox","name": "基礎Excel (條件格式設定、公式設定)", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "圖表分析、樞紐分析", "price": 1000, "state": "yes" }
+                ]
+            }
+        ],
+        "海報製作": [
+            {
+                "title":"稿件，如需增加調整次數，依每次$200計價。",
+                "options":[
+                    { "detailtype":"radio","radioname":"poster1","name": "一種版(可微調一次)", "price": 0, "state": "yes" },
+                    { "detailtype":"radio","radioname":"poster1","name": "三種版本擇一(可微調兩次)", "price": 700, "state": "yes" }
+                ]
+            },
+            {
+                "title":"三種版本則一選項(一種版可跳過)。",
+                "options":[
+                    { "detailtype":"radio","radioname":"poster2","name": "無須加購", "price": 0, "state": "yes" },
+                    { "detailtype":"radio","radioname":"poster2","name": "額外加購一版本(無微調)", "price": 300, "state": "yes" },
+                    { "detailtype":"radio","radioname":"poster2","name": "額外加購兩版本(無微調)", "price": 600, "state": "yes" }
+                ]
+            },
+            {
+                "title":"排版資料。",
+                "options":[
+                    { "detailtype":"checkbox","name": "文字", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "相片", "price": 0, "state": "yes" }
+                ]
+            },
+            {
+                "title":"風格挑選，成品中所提供的素材嚴禁用於商業用途。",
+                "options":[
+                    { "detailtype":"checkbox","name": "簡約風格", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "復古風格", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "科技風格", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "可愛風格", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "電競風格", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "國風風格", "price": 0, "state": "yes" }
+                ]
+            },
+            {
+                "title":"檔案類型。",
+                "options":[
+                    { "detailtype":"checkbox","name": "PDF", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "PNG", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "JPG", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "PS檔", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "AI檔", "price": 0, "state": "yes" }
+                ]
+            }
+
+        ],
+        "名片": [
+            {
+                "title":"稿件，如需增加調整次數，依每次$200計價。",
+                "options":[
+                    { "detailtype":"radio","radioname":"test","name": "一種版(可微調一次)", "price": 0, "state": "yes" },
+                    { "detailtype":"radio","radioname":"test","name": "三種版本擇一(可微調兩次)", "price": 600, "state": "yes" }
+                ]
+            },
+            {
+                "title":"三種版本則一選項(一種版可跳過)。",
+                "options":[
+                    { "detailtype":"radio","radioname":"test","name": "無須加購", "price": 0, "state": "yes" },
+                    { "detailtype":"radio","radioname":"test","name": "額外加購一版本(無微調)", "price": 200, "state": "yes" },
+                    { "detailtype":"radio","radioname":"test","name": "額外加購兩版本(無微調)", "price": 400, "state": "yes" }
+                ]
+            },
+            {
+                "title":"排版資料。",
+                "options":[
+                    { "detailtype":"checkbox","name": "文字", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "相片", "price": 0, "state": "yes" }
+                ]
+            },
+            {
+                "title":"風格挑選，成品中所提供的素材嚴禁用於商業用途。",
+                "options":[
+                    { "detailtype":"checkbox","name": "簡約風格", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "復古風格", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "科技風格", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "可愛風格", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "電競風格", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "國風風格", "price": 0, "state": "yes" }
+                ]
+            },
+            {
+                "title":"檔案類型。",
+                "options":[
+                    { "detailtype":"checkbox","name": "PDF", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "PNG", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "JPG", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "PS檔", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "AI檔", "price": 0, "state": "yes" }
+                ]
+            }
+
+        ],
+        "Banner": [
+            {
+                "title":"稿件，如需增加調整次數，依每次$200計價。",
+                "options":[
+                { "detailtype":"radio","radioname":"test","name": "一種版(可微調一次)", "price": 0, "state": "yes" },
+                { "detailtype":"radio","radioname":"test","name": "三種版本擇一(可微調兩次)", "price": 700, "state": "yes" }
+                ]
+            },
+            {
+                "title":"三種版本則一選項(一種版可跳過)。",
+                "options":[
+                    { "detailtype":"radio","radioname":"test","name": "無須加購", "price": 0, "state": "yes" },
+                    { "detailtype":"radio","radioname":"test","name": "額外加購一版本(無微調)", "price": 300, "state": "yes" },
+                    { "detailtype":"radio","radioname":"test","name": "額外加購兩版本(無微調)", "price": 600, "state": "yes" }
+                ]
+            },
+            {
+                "title":"排版資料。",
+                "options":[
+                    { "detailtype":"checkbox","name": "文字", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "相片", "price": 0, "state": "yes" }
+                ]
+            },
+            {
+                "title":"風格挑選，成品中所提供的素材嚴禁用於商業用途。",
+                "options":[
+                    { "detailtype":"checkbox","name": "簡約風格", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "復古風格", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "科技風格", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "可愛風格", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "電競風格", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "國風風格", "price": 0, "state": "yes" }
+                ]
+            },
+            {
+                "title":"檔案類型。",
+                "options":[
+                    { "detailtype":"checkbox","name": "PDF", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "PNG", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "JPG", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "PS檔", "price": 0, "state": "yes" },
+                    { "detailtype":"checkbox","name": "AI檔", "price": 0, "state": "yes" }
+                ]
+            }
+
+        ]
+    }
+}

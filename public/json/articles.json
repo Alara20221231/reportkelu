@@ -1,0 +1,34 @@
+[
+    {
+      "id":1,
+        "images": [
+          "../img/teaching_img/GoogleFrom_1.png",
+          "../img/teaching_img/GoogleFrom_2.png",
+          "../img/teaching_img/GoogleFrom_3.png",
+          "../img/teaching_img/last.png"
+        ],
+        "website":[
+          {"name":"作品網頁","url":"https://alara20221231.github.io/web-GoogleForm/ "},
+          {"name":"Google試算表","url":"https://docs.google.com/spreadsheets/d/1zpkBjJYe_O4sGgZLAH9dEzgnia5KRN9fGBUJbF7l2L4/edit?usp=sharing"}
+        ],
+          "text": "網頁串聯Google表單",
+          "date": "2025-04-02",
+          "category": "作品分享"
+    },
+    {
+      "id":2,
+        "images": [
+          "../img/teaching_img/ESP32_1.png",
+          "../img/teaching_img/ESP32_2.png",
+          "../img/teaching_img/ESP32_3.png",
+          "../img/teaching_img/last.png"
+        ],
+        "website":[
+          {"name":"即時監測網站","url":"https://iotsvm.shop/mqtt/iot.html"}
+        ],
+          "text": "Arduino ESP32溫溼度辨識",
+          "date": "2025-04-02",
+          "category": "作品分享"
+    }
+  ]
+  
